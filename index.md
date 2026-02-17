@@ -1,5 +1,5 @@
 
-<img src="20250507_105838.jpg" alt="Lucinda Kraufvelin" width="200" style="border-radius: 50%;">
+<img src="20250507_105838.jpg" alt="Lucinda Kraufvelin" width="200" >
 
 # Lucinda Kraufvelin
 

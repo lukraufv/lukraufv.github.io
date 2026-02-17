@@ -1,6 +1,7 @@
-
 ---
+layout: single
 title: "Baltic Sea Species Illustrations"
+permalink: /gallery/
 ---
 
 # Baltic Sea Species Illustrations

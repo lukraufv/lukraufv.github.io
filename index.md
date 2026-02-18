@@ -1,6 +1,7 @@
 ---
-layout: single
 title: "Home"
+layout: page
+permalink: /
 ---
 
 <img src="20250507_105838.jpg" alt="Lucinda Kraufvelin" width="200">

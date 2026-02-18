@@ -13,7 +13,7 @@ I study how warming and temperature extremes shape coastal marine ecosystems in 
 ## Temperature Change & Marine Heatwaves
 
 <figure class="mm-figure">
-  <img src="/water_temp_2018_huso.png" alt="Marine heatwaves recorded at Husö Biological Station, 2018" />
+  <img src="/water_temp_2018_huso.jpg" alt="Marine heatwaves recorded at Husö Biological Station, 2018" />
   <figcaption> Example of Marine heatwaves recorded at Husö Biological Station, 2018.</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ I run controlled multispecies experiments across temperature gradients to track 
 ## Species Interactions
 
 <figure class="mm-figure">
-  <img src="/foodweb.png" alt="foodweb" />
+  <img src="/foodweb.jpg" alt="foodweb" />
   <figcaption> Illustration of a simplified network of trophic interactions in a coastal community.</figcaption>
 </figure>
 I explore how warming reshapes trophic and non‑trophic interactions, such as predation, competition, and habitat-forming species effects. Understanding these changes helps predict how future warming will influence coastal ecosystems.

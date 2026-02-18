@@ -4,15 +4,11 @@
 
 @import "minimal-mistakes";  // loads the theme
 
-/* Your custom gallery CSS */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 1.2rem;
-  margin-top: 1.5rem;
-}
-
 .gallery-grid img {
   width: 100%;
+  height: 250px;  /* adjust if you want larger or smaller boxes */
+  object-fit: cover;
   border-radius: 6px;
 }
+
+

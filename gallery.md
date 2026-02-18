@@ -25,7 +25,7 @@ A selection of my drawings of Baltic Sea species. Get in touch to see the full g
   </figure>
 
   <figure>
-    <img src="/Zostera2_Colour.png" alt="Zostera marina">
+    <img src="/Zos_colour.png" alt="Zostera marina">
     <figcaption>Zostera marina</figcaption>
   </figure>
 
@@ -60,8 +60,30 @@ A selection of my drawings of Baltic Sea species. Get in touch to see the full g
   </figure>
 
   <figure>
+    <img src="/Asterias_Colour.png" alt="Asterias rubens">
+    <figcaption>Asterias rubens</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/Hydrobia colour new.png" alt="Hydrobia sp.">
+    <figcaption>Hydrobia sp.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/Mytilus_Colour.png" alt="Mytilus edulis">
+    <figcaption>Mytilus edulis</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/Theodxs.png" alt="Theodoxus fluviatilis">
+    <figcaption>Theodoxus fluviatilis</figcaption>
+  </figure>
+
+  <figure>
     <img src="/Carcinus_Colour.png" alt="Carcinus maenas">
     <figcaption>Carcinus maenas</figcaption>
   </figure>
+
+  
 
 </div>

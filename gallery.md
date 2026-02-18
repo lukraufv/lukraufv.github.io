@@ -19,7 +19,7 @@ A selection of my drawings of Baltic Sea species.
   <img src="/Elysia_Colour.png" alt="Elysia viridis" />
   <img src="/Cerastoderma_Colour.png" alt="Cerastoderma edule" />
   <img src="/Aurelia_Colour.png" alt="Aurelia aurita" />
- <img class="rotate-left" src="/Ulva_Colour.png" alt="Ulva intestinalis" />
+  <img src="/Ulva_Colour.png" alt="Ulva intestinalis" />
   <img src="/Macoma_Colour.png" alt="Macoma balthica" />
   <img src="/Gammarus_Colour.png" alt="Gammarus locusta" />
   <img src="/Carcinus_Colour.png" alt="Carcinus maenas" />

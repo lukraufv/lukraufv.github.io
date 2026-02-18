@@ -1,12 +1,21 @@
+# Use Minimal Mistakes theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# Dark skin
 minimal_mistakes_skin: "dark"
 
 title: "Lucinda Kraufvelin"
 description: "PhD Researcher • Environmental & Marine Biology"
 url: "https://lukraufv.github.io"
 
+# Required plugins
 plugins:
   - jekyll-include-cache
+
+# Enable navigation from _data/navigation.yml
+collections:
+  posts:
+    output: true
 
 markdown: kramdown
 kramdown:

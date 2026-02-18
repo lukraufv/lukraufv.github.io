@@ -11,7 +11,7 @@ I study how warming and temperature extremes shape coastal marine ecosystems in 
 ## Temperature Change & Marine Heatwaves
 
 <figure class="align-right">
-  <img src="/water_temp_2018_huso.png" alt="Marine heatwaves recorded at Husö Biological Station, 2018" width="300px" />
+  <img src="/water_temp_2018_huso.png" alt="Marine heatwaves recorded at Husö Biological Station, 2018" width="250px" />
   <figcaption>Example of marine heatwaves recorded at Husö Biological Station in 2018.</figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ I investigate how gradual warming and marine heatwaves affect the structure and 
 ## Mesocosm Experiments
 
 <figure class="align-right">
-  <img src="/mesocosm.png" alt="Mesocosm experimental setup" width="300px" />
+  <img src="/mesocosm.png" alt="Mesocosm experimental setup" width="250px" />
   <figcaption>Schematic of one unit of the mesocosm system used in my experiments.</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ I run controlled multispecies experiments across temperature gradients to track 
 ## Species Interactions
 
 <figure class="align-right">
-  <img src="/foodweb.png" alt="foodweb" width="300px" />
+  <img src="/foodweb.png" alt="foodweb" width="250px" />
   <figcaption>Illustration of a simplified network of trophic interactions in a coastal community.</figcaption>
 </figure>
 

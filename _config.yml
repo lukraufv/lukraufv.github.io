@@ -1,14 +1,13 @@
-theme: minima
-
-# Minima's built‑in dark skin
-minima:
-  skin: dark
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark"
 
 title: "Lucinda Kraufvelin"
 description: "PhD Researcher • Environmental & Marine Biology"
 url: "https://lukraufv.github.io"
 
-#  pages to show in the header menu
-header_pages:
-  - index.md
-  - gallery.md
+plugins:
+  - jekyll-include-cache
+
+markdown: kramdown
+kramdown:
+  input: GFM

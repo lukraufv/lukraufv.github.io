@@ -38,7 +38,7 @@
 
 body {
   background-image: url('/light_community.png');
-  background-size: contain;         /* cover or 'contain' for full drawing intact */
+  background-size: cover;         /* cover or 'contain' for full drawing intact */
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;    /* nice parallax effect */

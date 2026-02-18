@@ -4,19 +4,9 @@
 
 @import "minimal-mistakes";  // loads the theme
 
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: 10px;
-  grid-gap: 10px;
-}
-
 .gallery-grid img {
   width: 100%;
+  height: 250px;  /* adjust if you want larger or smaller boxes */
+  object-fit: cover;
   border-radius: 6px;
-  grid-row-end: span var(--rows);
-}
-
-.gallery-grid img {
-  --rows: calc( (var(--img-height) / 10) );
 }

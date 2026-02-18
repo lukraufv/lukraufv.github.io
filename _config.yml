@@ -1,29 +1,14 @@
-# Use Minimal Mistakes via remote_theme (supported by GitHub Pages)
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: minima
 
-# Dark style
-minimal_mistakes_skin: "dark"
+# Minima's built‑in dark skin
+minima:
+  skin: dark
 
 title: "Lucinda Kraufvelin"
 description: "PhD Researcher • Environmental & Marine Biology"
 url: "https://lukraufv.github.io"
 
-# Enable the nav
-plugins:
-  - jekyll-include-cache
-
-# Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
-
-# Navigation menu (top bar)
-navigation:
-  - title: "Home"
-    url: /
-  - title: "Illustrations"
-    url: /gallery/
-
-# Optional: footer links (add later if you want)
-# author:
-#   name: "Lucinda Kraufvelin"
+#  pages to show in the header menu
+header_pages:
+  - index.md
+  - gallery.md

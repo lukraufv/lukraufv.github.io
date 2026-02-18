@@ -6,7 +6,7 @@ permalink: /gallery/
 
 # Baltic Sea Species Illustrations
 
-A selection of my drawings of Baltic Sea species.
+A selection of my drawings of Baltic Sea species. Get in touch to see the full gallery or if you wish to use these drawing in your own work!
 
 ---
 

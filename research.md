@@ -4,7 +4,6 @@ title: "Research"
 permalink: /research/
 ---
 
-# Research
 
 I study how warming and temperature extremes shape coastal marine ecosystems in the Baltic Sea. My work combines mesocosm experiments, community ecology, and trait‑based approaches to understand how species and interactions respond to environmental change.
 

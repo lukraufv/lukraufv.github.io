@@ -22,7 +22,7 @@ kramdown:
   input: GFM
 
 sass:
-  style: compressed
+  sass_dir: assets/css
 
 include:
   - assets/css

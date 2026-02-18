@@ -4,7 +4,7 @@ title: "Illustrations"
 permalink: /gallery/
 ---
 
-# Baltic Sea Species Illustrations
+# Species Illustrations
 
 A selection of my drawings of Baltic Sea species.
 

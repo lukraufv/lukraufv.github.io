@@ -17,8 +17,8 @@ Extreme temperatures · Marine heatwaves · Mesocosms · Ecological networks · 
 ---
 
 **Contact**  
-📧 lukraufv@abo.fi  
-📧 lukraufv.research@gmail.com  
+ lukraufv@abo.fi  
+ lukraufv.research@gmail.com  
 
 **ORCID:**  
 https://orcid.org/0000-0002-1437-6856

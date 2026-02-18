@@ -13,15 +13,55 @@ A selection of my drawings of Baltic Sea species.
 ## Gallery
 
 <div class="gallery-grid">
-  <img src="/Hediste_colour.png" alt="Hediste diversicolor" />
-  <img src="/fucus2.png" alt="Fucus vesiculosus" />
-  <img src="/Zostera2_Colour.png" alt="Zostera marina" />
-  <img src="/Elysia_Colour.png" alt="Elysia viridis" />
-  <img src="/Cerastoderma_Colour.png" alt="Cerastoderma edule" />
-  <img src="/Aurelia_Colour.png" alt="Aurelia aurita" />
-  <img src="/Ulva_Colour.png" alt="Ulva intestinalis" />
-  <img src="/Macoma_Colour.png" alt="Macoma balthica" />
-  <img src="/Gammarus_Colour.png" alt="Gammarus locusta" />
-  <img src="/Carcinus_Colour.png" alt="Carcinus maenas" />
+
+  <figure>
+    <img src="/Hediste_colour.png" alt="Hediste diversicolor">
+    <figcaption>Hediste diversicolor</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/fucus2.png" alt="Fucus vesiculosus">
+    <figcaption>Fucus vesiculosus</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/Zostera2_Colour.png" alt="Zostera marina">
+    <figcaption>Zostera marina</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/Elysia_Colour.png" alt="Elysia viridis">
+    <figcaption>Elysia viridis</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/Cerastoderma_Colour.png" alt="Cerastoderma edule">
+    <figcaption>Cerastoderma edule</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/Aurelia_Colour.png" alt="Aurelia aurita">
+    <figcaption>Aurelia aurita</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/Ulva_Colour.png" alt="Ulva intestinalis">
+    <figcaption>Ulva intestinalis</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/Macoma_Colour.png" alt="Macoma balthica">
+    <figcaption>Macoma balthica</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/Gammarus_Colour.png" alt="Gammarus locusta">
+    <figcaption>Gammarus locusta</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/Carcinus_Colour.png" alt="Carcinus maenas">
+    <figcaption>Carcinus maenas</figcaption>
+  </figure>
 
 </div>

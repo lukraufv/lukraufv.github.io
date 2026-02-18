@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Baltic Sea Species Illustrations"
+title: "Illustrations"
 permalink: /gallery/
 ---
 

@@ -5,4 +5,8 @@ main:
     url: /research/
   - title: "Illustrations"
     url: /gallery/
+     - title: "CV"
+    url: /CV/
+     - title: "Publications"
+    url: /publications/
   

@@ -38,4 +38,4 @@ I run controlled multispecies experiments across temperature gradients to track 
   <img src="/foodweb.png" alt="foodweb" />
   <figcaption> Illustration of a simplified network of trophic interactions in a coastal community.</figcaption>
 </figure>
-I explore how warming reshapes trophic and non‑trophic interactions, such as predation, competition, and habitat-forming species effects. Understanding these changes helps predict how future warming will influence coastal ecosystems.
+I explore how warming reshapes trophic and non‑trophic interactions, such as competition, mutualism, commensalism and ammensalism. Understanding these changes helps predict how future warming will influence coastal ecosystems.

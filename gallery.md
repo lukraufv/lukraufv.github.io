@@ -70,7 +70,7 @@ A selection of my drawings of Baltic Sea species. Get in touch to see the full g
   </figure>
 
   <figure>
-    <img src="/Mytilus_Colour.png" alt="Mytilus edulis">
+    <img src="/Mytlius_Colour.png" alt="Mytilus edulis">
     <figcaption>Mytilus edulis</figcaption>
   </figure>
 

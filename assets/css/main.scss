@@ -3,7 +3,7 @@
 
 @import "minimal-mistakes";
 
-/* Clean, simple 3-across responsive grid */
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -11,10 +11,13 @@
   margin-top: 1.5rem;
 }
 
-/* Images fill their tile, preserving the illustration */
+/* Show full image inside a fixed-height tile */
 .gallery-grid img {
   width: 100%;
-  height: 250px;        /* Adjust to desired tile height */
-  object-fit: cover;    /* shows full composition without stretching */
+  height: 260px;       /* adjust to taste (220–320px often looks great) */
+  object-fit: contain; /* <-- show the *entire* image, no cropping */
+  background: #111;    /* subtle backdrop for letterbox areas in dark theme */
   border-radius: 6px;
+  padding: 4px;        /* optional, keeps art off the edges */
+  box-sizing: border-box;
 }

@@ -1,10 +1,10 @@
 ---
+layout: single
 title: "Home"
-layout: page
 permalink: /
 ---
 
-<img src="20250507_105838.jpg" alt="Lucinda Kraufvelin" width="200">
+<img src="20250507_105838.jpg" alt="Lucinda Kraufvelin" width="200" style="border-radius: 8px;">
 
 # Lucinda Kraufvelin
 
@@ -18,7 +18,7 @@ Extreme temperatures · Marine heatwaves · Mesocosms · Ecological networks · 
 
 **Contact**  
 📧 lukraufv@abo.fi  
-📧 lukraufv.research@gmail.com
+📧 lukraufv.research@gmail.com  
 
 **ORCID:**  
 https://orcid.org/0000-0002-1437-6856

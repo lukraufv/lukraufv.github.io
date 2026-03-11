@@ -38,11 +38,10 @@
 
 body {
   background-image: url('/light_community.png');
-  background-size: cover;         /* cover or 'contain' for full drawing intact */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-  background-attachment: fixed;    /* nice parallax effect */
-  opacity: 1;                      /* ensures visibility on light theme */
+  background-attachment: fixed;
 }
 
 body::before {
@@ -52,7 +51,14 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255,255,255,0.8); /* adjust transparency */
+  background: rgba(255,255,255,0.8);
   pointer-events: none;
-  z-index: -1;
+  z-index: 0;     /* <- FIXED */
 }
+
+/* Ensure content sits above background overlay */
+.initial-content, .page__content {
+  position: relative;
+  z-index: 1;
+}
+

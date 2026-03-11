@@ -36,36 +36,29 @@
   margin-top: 0.4rem;        /* spacing above caption */
 }
 
-body {
+/* Put the background on <html>, not <body> */
+html {
   background-image: url('/light_community.png');
-  background-size: cover;         /* or 'contain' for full drawing intact */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-  background-attachment: fixed;    /* nice parallax effect */
-  opacity: 1;                      /* ensures visibility on light theme */
+  background-attachment: fixed;
+  background-color: transparent !important; /* critical */
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255,255,255,0); /* adjust transparency */
-  pointer-events: none;
-  z-index: -1;
+/* Ensure body itself does NOT hide it */
+body {
+  background: transparent !important;
 }
 
-/* --- FORCE ALL WRAPPERS TO BE TRANSPARENT --- */
-html, body,
+/* Make all theme wrappers transparent */
 .site,
 .page,
 .page__inner-wrap,
 .page__content,
+.initial-content,
 .masthead,
 .page__hero,
-.initial-content,
 .wrap,
 .outer,
 .inner,

@@ -56,13 +56,19 @@ body::before {
   pointer-events: none;
   z-index: -1;
 }
-/* Make all page wrappers transparent so body background is visible */
+
+/* --- FORCE ALL WRAPPERS TO BE TRANSPARENT --- */
+html, body,
+.site,
 .page,
 .page__inner-wrap,
 .page__content,
-.site,
 .masthead,
 .page__hero,
-.initial-content {
+.initial-content,
+.wrap,
+.outer,
+.inner,
+#page-wrapper {
   background: transparent !important;
 }

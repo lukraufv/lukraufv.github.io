@@ -3,6 +3,9 @@
 
 @import "minimal-mistakes";
 
+/* ===========================
+   YOUR EXISTING GALLERY CSS
+   =========================== */
 
 .gallery-grid {
   display: grid;
@@ -11,57 +14,65 @@
   margin-top: 1.5rem;
 }
 
-/* Show full image inside a fixed-height tile */
 .gallery-grid img {
   width: 100%;
-  height: 260px;       /* adjust to taste (220–320px often looks great) */
-  object-fit: contain; /* <-- show the *entire* image, no cropping */
-  /*background: #111;    /* subtle backdrop for letterbox areas in dark theme */
+  height: 260px;
+  object-fit: contain;
   border-radius: 6px;
-  padding: 4px;        /* optional, keeps art off the edges */
+  padding: 4px;
   box-sizing: border-box;
 }
 
-/* FIGURE + CAPTION STYLING */
 .gallery-grid figure {
-  margin: 0;                 /* remove default margins */
+  margin: 0;
   padding: 0;
-  text-align: center;        /* center the caption */
+  text-align: center;
 }
 
 .gallery-grid figcaption {
-  font-size: 0.9rem;         /* matches Minimal Mistakes small text */
-  color: var(--text-color);  /* uses the theme's own text color */
-  font-style: italic;        /* italic species names */
-  margin-top: 0.4rem;        /* spacing above caption */
+  font-size: 0.9rem;
+  color: var(--text-color);
+  font-style: italic;
+  margin-top: 0.4rem;
 }
 
-/* Put the background on <html>, not <body> */
-html {
-  background-image: url('/light_community.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-color: transparent !important; /* critical */
-}
+/* =========================================
+   RELIABLE GLOBAL BACKGROUND IMPLEMENTATION
+   ========================================= */
 
-/* Ensure body itself does NOT hide it */
-body {
+/* 1) Ensure the html/body themselves are transparent */
+html, body {
   background: transparent !important;
 }
 
-/* Make all theme wrappers transparent */
-.site,
+/* 2) Create a full-viewport background layer behind everything */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;                        /* top:0; right:0; bottom:0; left:0 */
+  background-image: url('/light_community.png');
+  background-size: cover;          /* use 'contain' if you prefer full drawing */
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;    /* parallax-like effect */
+  z-index: 0;                      /* <-- critical: sits behind content, but above html */
+  pointer-events: none;            /* don't block clicks */
+  opacity: 1;                      /* adjust if you want a veil later */
+}
+
+/* 3) Lift all site content above that background layer */
+.masthead,
+.page__hero,
+.initial-content,
 .page,
 .page__inner-wrap,
 .page__content,
-.initial-content,
-.masthead,
-.page__hero,
+.site,
 .wrap,
 .outer,
 .inner,
 #page-wrapper {
-  background: transparent !important;
+  position: relative;
+  z-index: 1;
+  background: transparent !important;  /* make sure nothing paints white */
 }

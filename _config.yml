@@ -27,6 +27,3 @@ sass:
 include:
   - assets/css
 
-assets:
-  custom_css:
-    - assets/css/main.scss

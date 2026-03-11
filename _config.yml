@@ -29,4 +29,4 @@ include:
 
 assets:
   custom_css:
-    - assets/css/main.css
+    - assets/css/main.scss

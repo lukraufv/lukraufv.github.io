@@ -1,40 +1,10 @@
 ---
 ---
 
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.2rem;
-  margin-top: 1.5rem;
-}
-
-/* Show full image inside a fixed-height tile */
-.gallery-grid img {
-  width: 100%;
-  height: 260px;       /* adjust to taste (220–320px often looks great) */
-  object-fit: contain; /* <-- show the *entire* image, no cropping */
-  /*background: #111;    /* subtle backdrop for letterbox areas in dark theme */
-  border-radius: 6px;
-  padding: 4px;        /* optional, keeps art off the edges */
-  box-sizing: border-box;
-}
-
-/* FIGURE + CAPTION STYLING */
-.gallery-grid figure {
-  margin: 0;                 /* remove default margins */
-  padding: 0;
-  text-align: center;        /* center the caption */
-}
-
-.gallery-grid figcaption {
-  font-size: 0.9rem;         /* matches Minimal Mistakes small text */
-  color: var(--text-color);  /* uses the theme's own text color */
-  font-style: italic;        /* italic species names */
-  margin-top: 0.4rem;        /* spacing above caption */
-}
-
-body {
+/* ============================================================
+   GLOBAL BACKGROUND IMAGE (works on ALL layouts)
+   ============================================================ */
+html {
   background-image: url('/light_community.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,21 +12,58 @@ body {
   background-attachment: fixed;
 }
 
+/* Optional soft white veil over background like before */
 body::before {
   content: "";
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255,255,255,0.8);
+  inset: 0;
+  background: rgba(255,255,255,0.8); /* adjust or remove */
   pointer-events: none;
-  z-index: 0;     /* <- FIXED */
+  z-index: 0;
 }
 
-/* Ensure content sits above background overlay */
-.initial-content, .page__content {
+/* Make sure content stays above the veil */
+body,
+.initial-content,
+.page,
+.page__inner-wrap,
+.page__content,
+.masthead,
+.page__hero {
   position: relative;
   z-index: 1;
+  background: transparent !important; /* KEY FIX */
 }
 
+/* ============================================================
+   GALLERY GRID (your image grid styling)
+   ============================================================ */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  border-radius: 6px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.gallery-grid figure {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.gallery-grid figcaption {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  font-style: italic;
+  margin-top: 0.4rem;
+}
+``

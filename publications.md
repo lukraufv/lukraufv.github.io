@@ -4,11 +4,6 @@ title: "Publications"
 permalink: /publications/
 ---
 
----
-layout: single
-title: "CV"
-permalink: /CV/
----
 
 ## **Publications**
 
